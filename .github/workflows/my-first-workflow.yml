@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
     - name: check out repository
-       uses: actions/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Use Node.js 18
-       uses: actions/setup-node@v3
+      uses: actions/setup-node@v3
        with:
          node-version: 18
 
     - name: Print Message
-       run: echo "Helloo Ravi"   
+      run: echo "Helloo Ravi"   
 
